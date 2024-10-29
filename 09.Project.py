@@ -3,7 +3,6 @@ with open("09.Project Distances.csv", "r") as file:
     reader = csv.reader(file)
     distance_table = [row for row in reader]
 
-
 print("Distance Table:")
 for row in distance_table:
     print("".join(f"{item:15}" for item in row)) 
