@@ -52,7 +52,7 @@ for triangle in triangle_list:
     area = triangle.area()
     angles = triangle.angles()
 
-    # Print each triangle's information formatted to 3 decimal places
+    # Print each number to 3 decimal places
     print(f"{t_type:<12}{s1:<10.3f}{s2:<10.3f}{s3:<10.3f}{perimeter:<12.3f}{area:<10.3f}{angles[0]:<10.3f}{angles[1]:<10.3f}{angles[2]:<10.3f}")
-    print() # Adds a blank line between each row
+    print() # Adds space between each row
 
